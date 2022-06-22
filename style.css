@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+body, html{
+    margin: 0;
+    font: 16px;
+    height: 100%;
+    color: #777;
+}
+.conteudo, .conteudo2{
+    color: #777;
+    background-color: white;
+    text-align: justify;
+    padding: 30px 60px;
+}
+h3{
+    color: #777;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h5{
+    color: rgb(109, 104, 104);
+    text-align: center;
+}
+h2{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    justify-content: center;
+}
+p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.text, .text2{
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    padding: 18px;
+    letter-spacing: 5px;
+
+}
+.text3, .text4{
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    padding: 18px;
+    letter-spacing: 5px;
+}
+
+/*PARALLAX IMGS
+******************/
+.caixa1, .caixa2, .caixa3, .caixa4{
+    position: relative;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .9;
+}
+.caixa1{
+    background-image: url(assets/imagem1.jpg);
+}
+.caixa2{
+    background-image: url(assets/imagem2.jpg);
+}
+.caixa3{
+    background-image: url(assets/imagem3.jpg);
+}
+.caixa4{
+    background-image: url(assets/imagem4.jpg);
+}
+.caixa1:after, .caixa2:after, .caixa3:after, .caixa4:after{
+    content: "";
+    position: absolute;
+    z-index: 8;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+}
+
+/*MEDIA SCREEN
+***************************/
+@media (max-width:700px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'DM Sans', sans-serif;
+    }
+    body, html{
+        margin: 0;
+        font: 16px;
+        height: 100%;
+        color: #777;
+    }
+    .conteudo, .conteudo2{
+        color: #777;
+        background-color: white;
+        text-align: justify;
+        padding: 30px 60px;
+    }
+    h3{
+        color: #777;
+        background-color: white;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    h5{
+        color: rgb(109, 104, 104);
+        text-align: center;
+    }
+    h2{
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        background-color: #000;
+        justify-content: center;
+    }
+    p{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .text, .text2{
+        position: absolute;
+        left: 0%;
+        top: 50%;
+        padding: 18px;
+        letter-spacing: 5px;
+    
+    }
+    .text3, .text4{
+        position: absolute;
+        left: 0%;
+        top: 50%;
+        padding: 18px;
+        letter-spacing: 5px;
+    }
+    
+    /*PARALLAX IMGS
+    ******************/
+    .caixa1, .caixa2, .caixa3, .caixa4{
+        position: relative;
+        height: 100%;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: .9;
+    }
+    .caixa1{
+        background-image: url(assets/imagem1.jpg);
+    }
+    .caixa2{
+        background-image: url(assets/imagem2.jpg);
+    }
+    .caixa3{
+        background-image: url(assets/imagem3.jpg);
+    }
+    .caixa4{
+        background-image: url(assets/imagem4.jpg);
+    }
+    .caixa1:after, .caixa2:after, .caixa3:after, .caixa4:after{
+        content: "";
+        position: absolute;
+        z-index: 8;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    }
+}
