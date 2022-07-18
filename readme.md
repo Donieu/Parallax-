@@ -1,6 +1,4 @@
-<h1 align="left">Parallax effect</h1>
 
-###
 <h1 align="left">Parallax effect</h1>
 
 ###
